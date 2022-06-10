@@ -30,7 +30,7 @@ while game_is_on:
     
     if player.finish():
         player.reset()
-        scoreboard.got_point()
+        scoreboard.get_point()
         car_manager.increase_speed()
 
 

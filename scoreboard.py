@@ -17,7 +17,7 @@ class Scoreboard(Turtle):
     
     def update_score(self):
         self.clear()
-        self.goto(-280, 265)
+        self.goto(-295, 265)
         self.write(f"Level: {self.score}", align="left", font=FONT)
     
     def get_point(self):
